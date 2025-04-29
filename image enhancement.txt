@@ -1,0 +1,5 @@
+img = imread("imagesmount.jpg"); % Read the image
+bright_img = img + 50; % Increase brightness
+
+imshowpair(img, bright_img, 'montage'); % Display images side by side
+title('Original Image (left) and Brightened Image (right)'); % Add title
